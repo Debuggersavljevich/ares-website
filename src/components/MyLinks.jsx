@@ -1,6 +1,6 @@
 export const links = [
     {
-      name: "Lorem",
+      name: "Productos",
       submenu: true,
       sublinks: [
         {
@@ -57,7 +57,7 @@ export const links = [
       ],
     },
     {
-      name: "lorem",
+      name: "Aplicaciones",
       submenu: true,
       sublinks: [
         {
@@ -114,7 +114,7 @@ export const links = [
       ],
     },
     {
-      name: "lorem",
+      name: "Servicios",
       submenu: true,
       sublinks: [
         {

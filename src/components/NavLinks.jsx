@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div>
           <div className="px-3 text-left md:cursor-pointer group font-ubuntu">
             <h1
-              className="py-7 flex justify-between items-center md:pr-0 pr-5 group"
+              className="py-7 flex justify-between items-center md:pr-0 pr-5 group underline underline-offset-4"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
