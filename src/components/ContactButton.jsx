@@ -1,12 +1,11 @@
 import React from 'react'
-import { Button } from '@chakra-ui/react'
 
 const ContactButton = () => {
   return (
     
-    <div className="py-2 px-6 rounded md:ml-4">
-      <Button colorScheme='blue'>Contacto</Button>
-    </div>
+    <button className='p-2 bg-indigo-400 rounded-full font-bold font-ubuntu'>
+      Contacto
+    </button>
     )
 }
 
