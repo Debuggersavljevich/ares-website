@@ -33,22 +33,22 @@ const MainProducts = () => {
         </div>
         <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
           <img
-            src="src\assets\bomba-2.png"
+            src="https://ares.com.ar/carousel/main/BombaDX.png"
             alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
             className="rounded-lg bg-gray-100"
           />
           <img
-            src="src\assets\bomba-3.png"
+            src="https://ares.com.ar/carousel/main/LK7.png"
             alt="Top down view of walnut card tray with embedded magnets and card groove."
             className="rounded-lg bg-gray-100"
           />
           <img
-            src="src\assets\bomba-2.png"
+            src="https://ares.com.ar/carousel/main/DS6.png"
             alt="Side of walnut card tray with card groove and recessed card area."
             className="rounded-lg bg-gray-100"
           />
           <img
-            src="src\assets\bomba1.png"
+            src="https://ares.com.ar/carousel/main/BombaDX.png"
             alt="Walnut card tray filled with cards and card angled in dedicated groove."
             className="rounded-lg bg-gray-100"
           />
