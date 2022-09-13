@@ -5,7 +5,7 @@ import ItemsFooterContainer from './FooterProps/ItemsFooterContainer'
 const Footer = () => {
   return (
     <footer className='bg-gray-900 text-white'>
-        <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-white py-7'>
+        <div className='md:flex md:justify-between md:items-center sm:px-12 px-4 bg-gray-800 py-7'>
             <h1 className='lg:text-4xl text-3xl md:mb-0 mb-6 lg:leding-normal font-semibold font-ubuntu md:2/5'>
               <img src={Logo} alt="" className='h-9 cursor-pointer ml-14' />
             </h1>
