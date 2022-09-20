@@ -3,10 +3,21 @@ import { Link, BrowserRouter as Router } from "react-router-dom";
 import Logo from '../assets/logo.png'
 import ContactButton from '../components/ContactButton'
 import NavLinks from "./NavLinks";
+import { PhoneIcon, CalendarIcon } from "@chakra-ui/icons";
+
+
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <nav className="bg-white font-ubuntu shadow-2xl rounded-sm z-999">
+      <div className="bg-indigo-200 text-center p-2 font-ubuntu">
+    
+         <div className="font-bold">
+            <PhoneIcon /> +549(11)47606060
+            <CalendarIcon className="ml-5" />Lun a Vie de 08:00 a 17:00
+         </div>
+        
+      </div>
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img src={Logo} alt="logo" className="md:cursor-pointer h-9" />
