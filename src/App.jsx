@@ -17,8 +17,8 @@ function App() {
         
         <main>    
           <Hero />
-          <div className="text-center m-5">
-          <h2 className="font-bold tracking-tight text-indigo-600 text-3xl">Productos Destacados</h2>
+          <div className="text-center mt-10">
+          <h2 className=" m-20 text-4xl font-bold tracking-tight text-indigo-700 sm:text-5xl md:text-6xl">Productos Destacados</h2>
 
             <CarouselFeaturedProducts />
           </div>

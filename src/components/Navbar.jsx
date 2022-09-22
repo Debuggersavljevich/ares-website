@@ -26,7 +26,7 @@ const Navbar = () => {
           </div>
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
-          <li>
+          <li className="font-ubuntu">
               <Router>
                 <Link to="/" className="py-7 px-3 inline-block">
                 Home
