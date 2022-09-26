@@ -4,17 +4,18 @@ import Hero from "./components/Hero"
 import CarouselFeaturedProducts from "./components/CarouselFeaturedProducts"
 import AboutUs from "./components/AboutUs"
 import MainProducts from "./components/MainProducts"
-import { PhoneIcon, CalendarIcon } from "@chakra-ui/icons";
+import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
 
 
 function App() {
 
   return (
     <>
-     <div className="bg-indigo-200 text-center p-2 font-ubuntu">
+     <div className="bg-indigo-200 p-3 font-ubuntu">
         <div className="font-bold">
-          <PhoneIcon /> +549(11)47606060
           <CalendarIcon className="ml-5" />Lun a Vie de 08:00 a 17:00
+          <PhoneIcon className="ml-5" /> +549(11)47606060
+          <EmailIcon className="ml-4" /> <a target="_blank" href="mailto:ventas@ares.com.ar">ventas@ares.com.ar</a>
         </div>
       </div>
 
