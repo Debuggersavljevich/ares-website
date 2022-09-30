@@ -5,7 +5,7 @@ import CarouselFeaturedProducts from "./components/CarouselFeaturedProducts"
 import AboutUs from "./components/AboutUs"
 import MainProducts from "./components/MainProducts"
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
-
+import Nosotros from './components/Nosotros'
 
 function App() {
 
@@ -25,15 +25,23 @@ function App() {
         
       <main>    
           <Hero />
-          <div className="text-center mt-10">
-            <h2 className=" m-20 text-4xl font-bold tracking-tight text-indigo-700 sm:text-5xl md:text-6xl">Productos Destacados</h2>
+          <div className="text-center">
+            <h2 className=" m-20 text-4xl font-bold tracking-tight text-indigo-700 sm:text-5xl md:text-6xl">Nuestra Historia</h2>
+            <Nosotros />
+            
+          </div>
 
+          <div className="text-center mt-10">
+            <h2 className="m-20 text-4xl font-bold tracking-tight text-indigo-700 sm:text-5xl md:text-6xl">Productos Destacados</h2>
+            
             <CarouselFeaturedProducts />
           </div>
           <AboutUs />
           <MainProducts />
          <Footer />
+         
       </main> 
+      
     </>
   )
 }

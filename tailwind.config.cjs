@@ -5,12 +5,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      gridTemplateRows: {
+      },
+    },
     fontFamily:{
       'ubuntu': 'Ubuntu, sans-serif'
     }
   },
   plugins: [
-    
   ],
 }
