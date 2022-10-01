@@ -9,7 +9,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => (
         <div>
-          <div className="px-3 text-left md:cursor-pointer group font-ubuntu">
+          <div className="px-1 text-left md:cursor-pointer group font-ubuntu transition-all duratino-500">
             <h1
               className="py-7 flex justify-between items-center md:pr-0 pr-5 group underline underline-offset-4"
               onClick={() => {
