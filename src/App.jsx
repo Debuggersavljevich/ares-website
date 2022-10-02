@@ -47,7 +47,6 @@ function App() {
             <CarouselFeaturedProducts />
           </div>
           <AboutUs />
-          <MainProducts />
          <Footer />
          
       </main> 

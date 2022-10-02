@@ -31,7 +31,7 @@ const AboutUs = () => {
       ]
 
   return (
-    <div>
+    <div className='mt-20 mb-40'>
         <div className="bg-white py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
