@@ -5,12 +5,12 @@ const ItemCarousel = () => {
     const products = [
         {
           id: 1,
-          name: 'Basic Te',
+          name: 'Bomba',
           href: '#',
-          imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg',
-          imageAlt: "Front of men's Basic Tee in black.",
-          price: '$35',
-          color: 'Black',
+          imageSrc: 'https://ares.com.ar/carousel/productos/img/BombaDX%20450x450.png',
+          imageAlt: "lorem",
+          price: '$123',
+          color: 'lorem',
         } 
       ]
 
