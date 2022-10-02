@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { links } from "./MyLinks";
 
 const NavLinks = () => {
@@ -46,14 +46,14 @@ const NavLinks = () => {
                         </h1>
                         {mysublinks.sublink.map((slink) => (
                           <li className="text-sm text-gray-600 my-2.5">
-                            <Router>
+                            
                                 <Link
                                 to={slink.link}
                                 className="hover:text-primary"
                                 >
                                 {slink.name}
                                 </Link>
-                            </Router>
+                            
                           </li>
                         ))}
                       </div>
@@ -100,9 +100,9 @@ const NavLinks = () => {
                   >
                     {slinks.sublink.map((slink) => (
                       <li className="py-3 pl-14">
-                        <Router>
+                        
                              <Link to={slink.link}>{slink.name}</Link>
-                        </Router>
+                        
                       </li>
                     ))}
                   </div>

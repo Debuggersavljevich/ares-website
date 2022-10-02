@@ -6,11 +6,21 @@ import AboutUs from "./components/AboutUs"
 import MainProducts from "./components/MainProducts"
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
 import Nosotros from './components/Nosotros'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import ProductoBase from "./components/products/ProductoBase"
+
 
 function App() {
 
   return (
     <>
+      
+
+
      <div className="bg-indigo-200 p-3 font-ubuntu">
         <div className="font-bold">
           <CalendarIcon className="ml-5" />Lun a Vie de 08:00 a 17:00
@@ -20,7 +30,7 @@ function App() {
       </div>
 
       <div className="z-10 sticky top-0">
-        <Navbar />
+        <Navbar key="key-nav" />
       </div> 
         
       <main>    

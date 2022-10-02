@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { Link, Routes, Route } from "react-router-dom";
 import Logo from '../assets/logo.png'
 import ContactButton from '../components/ContactButton'
 import NavLinks from "./NavLinks";
-import { PhoneIcon, CalendarIcon } from "@chakra-ui/icons";
+import ProductoBase from '../components/products/ProductoBase'
+import App from "../App";
 
 
 const Navbar = () => {
@@ -20,28 +21,30 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden uppercase items-center gap-6 font-[Poppins]">
           <li className="font-ubuntu">
-              <Router>
-                <Link to="/" className="py-7 px-3 inline-block">
-                Home
-                </Link>
-                <Link to="/" className="py-7 px-3 inline-block">
-                Nosotros
-                </Link>
-            </Router>
+         
+                
+                  <Link to="/" className="py-7 px-3 inline-block">
+                  Home
+                  </Link>
+                  <Link to="/" className="py-7 px-3 inline-block">
+                  Nosotros
+                  </Link>
+                
+            
           </li>
           <NavLinks />
           <li>
-            <Router>
+            
             <Link to="/" className="py-7 px-3 inline-block">
                 Novedades
                 </Link>
-            </Router>
+           
           </li>
         </ul>
         <div className="md:block hidden">
           <ContactButton />
         </div>
-        {/* Mobile nav */}
+        {/* éste es el menú movil giansito */}
         <ul
           className={`
         md:hidden bg-indigo-200  fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
@@ -49,15 +52,18 @@ const Navbar = () => {
         `}
         >
           <li>
-              <Router>
+              
                     <Link to="/" className="py-7 px-3 inline-block font-ubuntu">
                       Home
                     </Link>
-              </Router>
+              
           </li>
             <NavLinks />
                 <div className="py-5">
             <ContactButton />
+
+
+
           </div>
         </ul>
       </div>
