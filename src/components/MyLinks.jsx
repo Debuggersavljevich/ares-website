@@ -6,7 +6,7 @@ export const links = [
         {
           Head: "Lorem",
           sublink: [
-            { name: "Producto base", link: "" },
+            { name: "Producto base", link: "/productoBase" },
             { name: "lorem", link: "/producto2" },
             { name: "lorem", link: "/" },
             { name: "lorem", link: "/" },

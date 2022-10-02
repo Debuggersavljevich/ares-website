@@ -19,26 +19,21 @@ const product = {
   ],
   images: [
     {
-      src: {Bomba},
+      src: "https://www.ares.com.ar/css/images/DS6.png",
       alt: 'desc',
     },
     {
-      src: {Bomba1},
+      src: "https://www.ares.com.ar/css/images/LK7.png",
       alt: 'desc',
     },
     {
-      src: {Bomba2},
+      src: "https://www.ares.com.ar/css/images/Bomba%20dosificadora.png",
       alt: 'desc',
     },
     {
-      src: {Bomba3},
+      src: "https://ares.com.ar/carousel/productos/img/BombaDX%20450x450.png",
       alt: 'desc',
     },
-  ],
-  colors: [
-    { name: 'White', class: 'bg-white', selectedClass: 'ring-gray-400' },
-    { name: 'Gray', class: 'bg-gray-200', selectedClass: 'ring-gray-400' },
-    { name: 'Black', class: 'bg-gray-900', selectedClass: 'ring-gray-900' },
   ],
   sizes: [
     { name: '1/2"', inStock: false },
@@ -70,7 +65,7 @@ function classNames(...classes) {
 
 
 const ProductoBase = () => {
-  const [selectedColor, setSelectedColor] = useState(product.colors[0])
+  
   const [selectedSize, setSelectedSize] = useState(product.sizes[2])
 
   return (
@@ -172,7 +167,7 @@ const ProductoBase = () => {
               <div>
                 <h3 className="text-sm text-gray-900 font-bold font-ubuntu">Descargas</h3>
 
-                <RadioGroup value={selectedColor} onChange={setSelectedColor} className="mt-4">
+                <RadioGroup className="mt-4">
                   <RadioGroup.Label className="sr-only">Descargas disponibles </RadioGroup.Label>
                   <div className='flex justify-around'>
                     <a className='mr-2 font-bold font-ubuntu h-6 w-32 text-center bg-indigo-100 rounded-3xl cursor-pointer'>Ficha Técnica</a>
