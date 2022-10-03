@@ -3,15 +3,9 @@ import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import CarouselFeaturedProducts from "./components/CarouselFeaturedProducts"
 import AboutUs from "./components/AboutUs"
-import MainProducts from "./components/MainProducts"
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
 import Nosotros from './components/Nosotros'
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
-import ProductoBase from "./components/products/ProductoBase"
+
 
 
 function App() {
