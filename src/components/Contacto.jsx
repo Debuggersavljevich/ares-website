@@ -8,11 +8,15 @@ const Contacto = () => {
   return (
     <div>
        <div className="bg-indigo-200 p-3 font-ubuntu">
+
         <div className="font-bold">
+
           <CalendarIcon className="ml-5" />Lun a Vie de 08:00 a 17:00
           <PhoneIcon className="ml-5" /> +549(11)47606060
           <EmailIcon className="ml-4" /> <a target="_blank" href="mailto:ventas@ares.com.ar">ventas@ares.com.ar</a>
+        
         </div>
+
       </div>
       <div className="z-50 sticky top-0">
         <Navbar key="key-nav" />
