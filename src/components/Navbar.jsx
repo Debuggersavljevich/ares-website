@@ -26,7 +26,7 @@ const Navbar = () => {
                   <Link to="/" className="py-7 px-3 inline-block">
                   Home
                   </Link>
-                  <Link to="/" className="py-7 px-3 inline-block">
+                  <Link to="/nosotros" className="py-7 px-3 inline-block">
                   Nosotros
                   </Link>
                 
