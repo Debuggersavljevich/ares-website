@@ -14,7 +14,7 @@ const Navbar = () => {
      
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-3 md:w-auto w-full flex justify-between">
-          <img src={Logo} alt="logo" className="md:cursor-pointer h-14" />
+          <img src={Logo} alt="logo" className="md:cursor-pointer h-14 ml-8" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
@@ -59,12 +59,9 @@ const Navbar = () => {
               
           </li>
             <NavLinks />
-                <div className="py-5">
-            <ContactButton />
-
-
-
-          </div>
+                <div >
+                  <ContactButton />
+                </div>
         </ul>
       </div>
     </nav>
