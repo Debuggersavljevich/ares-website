@@ -4,54 +4,37 @@ export const links = [
       submenu: true,
       sublinks: [
         {
-          Head: "Lorem",
+          Head: "Bombas dosificadoras",
           sublink: [
-            { name: "Producto base", link: "/productoBase" },
-            { name: "lorem", link: "/producto2" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
+            { name: "Serie DX", link: "/productoBase" },
+            { name: "Serie DS6", link: "/producto2" },
           ],
         },
         {
-          Head: "lorem",
+          Head: "Equipos controladores y medidores",
           sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
+            { name: "Controladores y medidores serie LK7", link: "/serielk7" },
+            { name: "Módulos K", link: "/modulos-k" },
+            { name: "Módulos MIC", link: "/modulos-mic" },
           ],
         },
         {
-          Head: "lorem",
+          Head: "Sensores",
           sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-          ],
-        },
-  
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
+            { name: "Caudal", link: "/sensores-caudal" },
+            { name: "pH", link: "/sensores-ph" },
+            { name: "Redox", link: "/sensores-redox" },
+            { name: "Cloro", link: "/sensores-cloro" },
+            { name: "Conductividad", link: "/sensores-conductividad" },
+            { name: "Oxígeno disuelto", link: "/sensores-od" },
           ],
         },
         {
-          Head: "lorem",
+          Head: "Accesorios",
           sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
-            { name: "lorem", link: "/" },
+            { name: "Para bombas dosificadoras", link: "/accesorios-bombas-dosificadoras" },
+            { name: "Para medidores y controladres", link: "/accesorios-medidores-y-controladores" },
+            { name: "Para sensores", link: "/accesorios-sensores" },
           ],
         },
       ],
@@ -61,54 +44,23 @@ export const links = [
       submenu: true,
       sublinks: [
         {
-          Head: "lorem",
+          Head: "Tratamiento de aguas",
           sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
+            { name: "Agua de consumo", link: "/" },
+            { name: "Agua de calderas y torres de enfriamiento", link: "/" },
+            { name: "Reducciíon de cloro (ósmosis)", link: "/" },
+            { name: "Lavado alcalino (CIP)", link: "/" },
+            { name: "Natatorios", link: "/" },
+            { name: "Efluentes", link: "/" },
+            { name: "SKIDS", link: "/" },
           ],
         },
         {
-          Head: "lorem",
+          Head: "Agroindustria",
           sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-  
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
+            { name: "Insecticida para granos (poscosecha)", link: "/" },
+            { name: "Acidificación de suelos", link: "/" },
+            { name: "Sanitizantes en bebederos", link: "/" },
           ],
         },
       ],
@@ -118,54 +70,11 @@ export const links = [
       submenu: true,
       sublinks: [
         {
-          Head: "lorem",
+          Head: "",
           sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-  
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-          ],
-        },
-        {
-          Head: "lorem",
-          sublink: [
-            { name: "lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
-            { name: "lorem lorem", link: "/" },
+            { name: "Instalación y puesta en marcha", link: "/" },
+            { name: "Calibraciones", link: "/" },
+            { name: "Reparaciones", link: "/" },
           ],
         },
       ],
