@@ -18,8 +18,5 @@ export const PRODUCTS = [
     { name: "lorem", link: "#" },
   ];
   
-  export const Icons = [
-    { name: "logo-facebook", link: "#" },
-    { name: "logo-linkedin", link: "#" },
-  ];
+ 
 

@@ -18,16 +18,25 @@ const items = [
       imageAlt: "Front of men's Basic Tee in black.",
       price: '$35',
       color: 'Black',
+    },{
+      id: 1,
+      name: 'Basic Tee',
+      href: '#',
+      src: 'https://ares.com.ar/carousel/productos/img/BombaDX%20450x450.png',
+      imageAlt: "Front of men's Basic Tee in black.",
+      price: '$35',
+      color: 'Black',
     },
     {
-        id: 2,
-        name: 'remera negra',
-        href: '#',
-        src: 'https://ares.com.ar/carousel/productos/img/BombaDX%20450x450.png',
-        imageAlt: "Front of men's Basic Tee in black.",
-        price: '$75',
-        color: 'Black',
-      }
+      id: 1,
+      name: 'Basic Tee',
+      href: '#',
+      src: 'https://ares.com.ar/carousel/productos/img/BombaDX%20450x450.png',
+      imageAlt: "Front of men's Basic Tee in black.",
+      price: '$35',
+      color: 'Black',
+    },
+    
     
   ]
 
@@ -77,7 +86,7 @@ class CarouselFeaturedProducts extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-            <div> 
+            <div className='bg-black'> 
                 <ItemCarousel />
             </div>
         </CarouselItem>
@@ -92,10 +101,12 @@ class CarouselFeaturedProducts extends Component {
         previous={this.previous}
         
       >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
+        <CarouselIndicators className='hidden' items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
         {slides}
-        <CarouselControl className='bg-black' direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl className='bg-black' direction="next" directionText="Next" onClickHandler={this.next} />
+        
+          <CarouselControl className='' direction="prev" directionText="Previous" onClickHandler={this.previous} />
+          <CarouselControl className='' direction="next" directionText="Next" onClickHandler={this.next} />
+        
       </Carousel>
       
     );

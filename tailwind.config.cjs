@@ -10,7 +10,7 @@ module.exports = {
       },
     },
     fontFamily:{
-      'ubuntu': 'Ubuntu, sans-serif'
+      'ubuntu': 'ubuntu, sans-serif'
     }
   },
   plugins: [

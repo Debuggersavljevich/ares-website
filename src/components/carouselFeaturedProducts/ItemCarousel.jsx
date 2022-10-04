@@ -11,7 +11,7 @@ const ItemCarousel = () => {
           imageAlt: "lorem",
           price: '$123',
           color: 'lorem',
-        } 
+        }
       ]
 
 
