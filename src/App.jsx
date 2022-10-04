@@ -15,7 +15,7 @@ function App() {
       
 
 
-     <div className="bg-indigo-200 p-3 font-ubuntu">
+     <div className="bg-indigo-200 p-3 font-ubuntu flex justify-end">
         <div className="font-bold">
           <CalendarIcon className="ml-5 mr-1" />Lun a Vie de 08:00 a 17:00
           <PhoneIcon className="ml-5" /> +549(11)47606060
