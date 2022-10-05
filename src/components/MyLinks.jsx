@@ -46,6 +46,7 @@ export const links = [
         {
           Head: "Tratamiento de aguas",
           sublink: [
+            { name: "Base", link: "/aplicaciones" },
             { name: "Agua de consumo", link: "/" },
             { name: "Agua de calderas y torres de enfriamiento", link: "/" },
             { name: "Reducciíon de cloro (ósmosis)", link: "/" },
@@ -72,6 +73,7 @@ export const links = [
         {
           Head: "",
           sublink: [
+            { name: "Base", link: "/servicios" },
             { name: "Instalación y puesta en marcha", link: "/" },
             { name: "Calibraciones", link: "/" },
             { name: "Reparaciones", link: "/" },

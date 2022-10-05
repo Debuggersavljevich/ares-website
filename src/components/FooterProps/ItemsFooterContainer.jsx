@@ -9,9 +9,9 @@ const ItemsFooterContainer = () => {
       
       <div className='font-ubuntu font-medium text-white'>
         <img src="src\assets\logo.png" alt="" className='h-10 flex' />
-          <div className='flex h-6 mb-2 mt-2'><InboxIcon />ventas@ares.com.ar</div>
-          <div className='flex h-6 mb-2'><PhoneArrowDownLeftIcon />(+54)123 123 123</div>
-          <div className='flex h-6 mb-2'><MapPinIcon />Argentina</div>
+          <div className='flex h-6 mb-2 mt-4'><InboxIcon className='mr-2' />ventas@ares.com.ar</div>
+          <div className='flex h-6 mb-2'><PhoneArrowDownLeftIcon className='mr-2' />(+54)123 123 123</div>
+          <div className='flex h-6 mb-2'><MapPinIcon className='mr-2' />Argentina</div>
       </div>
       <ItemFooter Links={APPLICATIONS} title="Aplicaciones"/>
       <ItemFooter Links={SERVICES} title="Servicios" />
