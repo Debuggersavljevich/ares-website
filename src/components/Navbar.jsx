@@ -3,8 +3,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import Logo from '../assets/logo.png'
 import ContactButton from '../components/ContactButton'
 import NavLinks from "./NavLinks";
-import ProductoBase from '../components/products/ProductoBase'
-import App from "../App";
+
 
 
 const Navbar = () => {
