@@ -9,6 +9,8 @@ import Contacto from './components/Contacto'
 import Nosotros from './components/Nosotros'
 import Aplicaciones from './components/Aplicaciones/Aplicaciones'
 import Servicios from './components/Servicios/Servicios'
+import Novedades from './components/Novedades/Novedades'
+import NovedadesBase from './components/Novedades/NovedadesBase'
 
 
 
@@ -25,6 +27,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route exact path="/nosotros" element={<Nosotros />} />
             <Route exact path="/aplicaciones" element={<Aplicaciones />} />
             <Route exact path="/servicios" element={<Servicios />} />
+            <Route exact path="/novedades" element={<Novedades />} />
+            <Route exact path="/novedades/base" element={<NovedadesBase />} />
             
         </Routes>
           

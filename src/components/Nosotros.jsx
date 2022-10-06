@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
-
+import Logo from '../assets/logo.png'
 
 
 const Nosotros = () => {
@@ -25,7 +25,15 @@ const Nosotros = () => {
             <span className="block text-indigo-600 xl:inline">Lorem, ipsum.</span>
         </h1>
         
-        
+        <div className='flex justify-center m-5'>
+            <img src={Logo} alt="" />
+            
+        </div>
+        <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl text-center mt-28">
+            
+            <span className="block text-indigo-600 xl:inline">Lorem ipsum.</span>
+        </h1>
+
         <div className='flex justify-center mt-20'>
 
        

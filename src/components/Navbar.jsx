@@ -34,7 +34,7 @@ const Navbar = () => {
           <NavLinks />
           <li>
             
-            <Link to="/" className="py-7 px-3 inline-block font-ubuntu">
+            <Link to="/novedades" className="py-7 px-3 inline-block font-ubuntu">
                 Novedades
             </Link>
            

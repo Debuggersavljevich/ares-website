@@ -3,9 +3,9 @@ import Foto1 from '../Servicios/1.png'
 import Navbar from '../Navbar'
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
 import Footer from '../Footer'
-import AplicacionesProvider from './AplicacionesProvider';
+import NovedadesProvider from './NovedadesProvider';
 
-const Aplicaciones = () => {
+const Novedades = () => {
   return (
     <>
 
@@ -109,7 +109,7 @@ const Aplicaciones = () => {
                 </div>
                 </div>
 
-                <AplicacionesProvider></AplicacionesProvider>
+                <NovedadesProvider></NovedadesProvider>
 
 
     <Footer />
@@ -118,4 +118,4 @@ const Aplicaciones = () => {
   )
 }
 
-export default Aplicaciones
+export default Novedades
