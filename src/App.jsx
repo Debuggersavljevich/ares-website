@@ -23,7 +23,7 @@ function App() {
         </div>
       </div>
 
-      <div className="z-10 sticky top-0">
+      <div className="z-10 sticky top-0 3xl:sticky">
         <Navbar key="key-nav" />
       </div> 
         

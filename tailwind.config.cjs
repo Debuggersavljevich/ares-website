@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       gridTemplateRows: {
       },
+      screens: {
+        '3xl': {'min': '1920px'},
+      },
     },
     fontFamily:{
       'ubuntu': 'ubuntu, sans-serif'
