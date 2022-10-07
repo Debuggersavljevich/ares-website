@@ -3,8 +3,18 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
 import { InboxIcon, PhoneArrowDownLeftIcon, MapPinIcon } from '@heroicons/react/20/solid';
+import Logo from '../assets/logo.png'
 
 const Contacto = () => {
+   function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+
+
   return (
     <div>
         <div className="bg-white p-3 font-ubuntu flex justify-end">
@@ -25,7 +35,7 @@ const Contacto = () => {
     <div class="container">
       <div class="flex flex-wrap lg:justify-between -mx-4">
          <div class="w-full lg:w-1/2 xl:w-6/12 px-4">
-            <div class="max-w-[570px] mb-12 lg:mb-0">
+            <div class="max-w-[570px] mb-12 lg:mb-0 ">
                <span class="block mb-4 text-base text-primary font-semibold">
                ¡Escribinos!
                </span>
@@ -48,86 +58,93 @@ const Contacto = () => {
                   eius tempor incididunt ut labore et dolore magna aliqua. Ut enim
                   adiqua minim veniam quis nostrud exercitation ullamco
                </p>
-               <div class="flex mb-8 max-w-[370px] w-full">
-                  <div
-                     class="
-                     max-w-[60px]
-                     sm:max-w-[70px]
-                     w-full
-                     h-[60px]
-                     sm:h-[70px]
-                     flex
-                     items-center
-                     justify-center
-                     mr-6
-                     overflow-hidden
-                     bg-primary bg-opacity-5
-                     text-primary
-                     rounded
-                     "
-                     >
-                    <MapPinIcon className='bg-white' />
+               <div className='m-5'>
+                  <h1>Aca iría el mapa</h1>
+               </div>
+               <div className='flex justify-center ml-16'>
+                  <div class="flex mb-8 max-w-[370px] w-full">
+                     <div
+                        class="
+                        max-w-[60px]
+                        sm:max-w-[70px]
+                        w-full
+                        h-[60px]
+                        sm:h-[70px]
+                        flex
+                        items-center
+                        justify-center
+                        mr-6
+                        overflow-hidden
+                        bg-primary bg-opacity-5
+                        text-primary
+                        rounded
+                        "
+                        >
+                     <MapPinIcon className='bg-white' />
+                        
+                     </div>
+                     <div class="w-full">
+                       
+                        
+                     </div>
+                  </div>
+                  <div class="flex mb-8 max-w-[370px] w-full">
+                     <div
+                        class="
+                        max-w-[60px]
+                        sm:max-w-[70px]
+                        w-full
+                        h-[60px]
+                        sm:h-[70px]
+                        flex
+                        items-center
+                        justify-center
+                        mr-6
+                        overflow-hidden
+                        bg-primary bg-opacity-5
+                        text-primary
+                        rounded
+                        "
+                        >
+                        <PhoneArrowDownLeftIcon className='bg-white' />
+                     </div>
+                     <div class="w-full">
+                        
+                        
+                     </div>
+                  </div>
+                  <div class="flex mb-8 max-w-[370px] w-full">
+                     <div
+                        class="
+                        max-w-[60px]
+                        sm:max-w-[70px]
+                        w-full
+                        h-[60px]
+                        sm:h-[70px]
+                        flex
+                        items-center
+                        justify-center
+                        mr-6
+                        overflow-hidden
+                        bg-primary bg-opacity-5
+                        text-primary
+                        rounded
+                        "
+                        >
+                        <InboxIcon className='bg-white'  />
+                     </div>
                      
-                  </div>
-                  <div class="w-full">
-                     <h4 class="font-bold text-dark text-xl mb-1">Nuestras oficinas</h4>
-                     <p class="text-base text-body-color">
-                        99 S.t Jomblo Park Pekanbaru 28292. Indonesia
-                     </p>
+                     <div class="w-1/2">
+                        
+                        
+                     </div>
                   </div>
                </div>
-               <div class="flex mb-8 max-w-[370px] w-full">
-                  <div
-                     class="
-                     max-w-[60px]
-                     sm:max-w-[70px]
-                     w-full
-                     h-[60px]
-                     sm:h-[70px]
-                     flex
-                     items-center
-                     justify-center
-                     mr-6
-                     overflow-hidden
-                     bg-primary bg-opacity-5
-                     text-primary
-                     rounded
-                     "
-                     >
-                     <PhoneArrowDownLeftIcon className='bg-white' />
-                  </div>
-                  <div class="w-full">
-                     <h4 class="font-bold text-dark text-xl mb-1">Contacto telefónico</h4>
-                     <p class="text-base text-body-color">(+54)123 123 123</p>
-                  </div>
-               </div>
-               <div class="flex mb-8 max-w-[370px] w-full">
-                  <div
-                     class="
-                     max-w-[60px]
-                     sm:max-w-[70px]
-                     w-full
-                     h-[60px]
-                     sm:h-[70px]
-                     flex
-                     items-center
-                     justify-center
-                     mr-6
-                     overflow-hidden
-                     bg-primary bg-opacity-5
-                     text-primary
-                     rounded
-                     "
-                     >
-                     <InboxIcon className='bg-white'  />
-                  </div>
-                  <div class="w-full">
-                     <h4 class="font-bold text-dark text-xl mb-1">
-                        Correo electrónico
-                     </h4>
-                     <p class="text-base text-body-color">ventas@ares.com.ar</p>
-                  </div>
-               </div>
+            </div>
+            <div className='grid grid-cols-3 items-center'>
+               <h4 class="font-bold text-dark  mb-1">Lorem, ipsum dolor.</h4>
+               <h4 class="font-bold text-dark  mb-1">(+54)123 123 123</h4>
+               <h4 class="font-bold text-dark mb-1">ventas@ares.com.ar</h4>
             </div>
          </div>
          <div class="w-full lg:w-1/2 xl:w-5/12 px-4">
@@ -1026,12 +1043,15 @@ const Contacto = () => {
                            fill="#13C296"
                            />
                      </svg>
+                     
                   </span>
                </div>
             </div>
          </div>
       </div>
+     
    </div>
+  
 </section>
         
         <Footer/>
