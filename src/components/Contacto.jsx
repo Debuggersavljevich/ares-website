@@ -3,16 +3,11 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import { PhoneIcon, CalendarIcon, EmailIcon } from "@chakra-ui/icons";
 import { InboxIcon, PhoneArrowDownLeftIcon, MapPinIcon } from '@heroicons/react/20/solid';
-import Logo from '../assets/logo.png'
+import { GoogleMap, useLoadScript, Marker } from '@googlemaps/react-wrapper'
 
 const Contacto = () => {
-   function myMap() {
-      var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
-        zoom:5,
-      };
-      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-      }
+  
+   const {} = useLoadScript({ googleMapsApiKey: "" })
 
 
   return (
