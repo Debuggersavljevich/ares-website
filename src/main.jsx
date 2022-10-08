@@ -11,7 +11,7 @@ import Aplicaciones from './components/Aplicaciones/Aplicaciones'
 import Servicios from './components/Servicios/Servicios'
 import Novedades from './components/Novedades/Novedades'
 import NovedadesBase from './components/Novedades/NovedadesBase'
-
+import Wsp from '../src/assets/wsp.png'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -31,7 +31,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route exact path="/novedades/base" element={<NovedadesBase />} />
             
         </Routes>
-          
+        <div className="flex justify-end mr-4 mb-2 fixed z-50 bottom-2.5 end-0">
+            <a href=""><img src={Wsp} alt="wsp" className="h-12" /></a>
+          </div>
         </BrowserRouter>
       </ChakraProvider>
     

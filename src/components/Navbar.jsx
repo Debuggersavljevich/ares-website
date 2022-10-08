@@ -9,6 +9,7 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
+    <>
     <nav className="bg-white font-ubuntu shadow-2xl rounded-sm z-999">
      
       <div className="flex items-center font-medium justify-around">
@@ -64,6 +65,10 @@ const Navbar = () => {
         </ul>
       </div>
     </nav>
+     
+    </>
+
+
   );
 };
 
