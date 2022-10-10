@@ -10,7 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-    <nav className="bg-white font-ubuntu shadow-2xl rounded-sm z-999">
+    <nav className="bg-white font-ubuntu shadow-2xl rounded-sm z-50">
      
       <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-3 md:w-auto w-full flex justify-between">

@@ -10,7 +10,7 @@ const Contacto = () => {
 
 
   return (
-    <div>
+    <div className='z-50'>
         <div className="bg-white p-3 font-ubuntu flex justify-end">
         <div className="font-bold">
           <CalendarIcon className="ml-5 mr-1" />Lun a Vie de 08:00 a 17:00
@@ -23,7 +23,7 @@ const Contacto = () => {
         <Navbar key="key-nav" />
       </div>
 
-      <section class="bg-white py-20 lg:py-[120px] overflow-hidden relative z-10 mt-20 mb-20">
+      <section class="bg-white py-20 lg:py-[120px] overflow-hidden relative mt-20 mb-20">
       
       
     <div class="container">
