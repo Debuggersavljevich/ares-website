@@ -7,7 +7,6 @@ import { GoogleMap, useLoadScript, Marker } from '@googlemaps/react-wrapper'
 
 const Contacto = () => {
   
-   const {} = useLoadScript({ googleMapsApiKey: "" })
 
 
   return (
